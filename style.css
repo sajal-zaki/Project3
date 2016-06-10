@@ -47,7 +47,7 @@ input[type=text] {
 
 header{
 	border: 3px solid black;
-	background-image: url(http://www.intrawallpaper.com/static/images/cool-background.jpg);
+	background-image: url(http://www.htc24x7.com/sites/all/themes/city_magazine/css/background/red/images/header-wrapper-bg.png);
 	color: white;
 	background-size: 100%;
 	height: 190px;
@@ -84,5 +84,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #b30000;
 }
