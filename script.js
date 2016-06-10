@@ -10,12 +10,14 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
         data: dataIN,
         success: function(response) {
 
-               $("#movie-title").html(response.Title);
-               $("#poster").attr("src", response.Poster);
-               
+              $("#poster").attr("src", response.Poster);
+              $("#movie-title").html(response.Title);
+              $("#movie-year").html(response.Year);
+              $("#movie-country").html(response.Country);
+              $("#movie-released").html(response.Released);
               $("#actors").html("Actors: " + response.Actors);
-             $("#directors").html("Directors: " + response.Director);
-             console.log(response);
+              $("#directors").html("Directors: " + response.Director);
+              console.log(response);
         }
        })
    })

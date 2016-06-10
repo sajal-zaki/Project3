@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 #dev{
 	margin: auto;
@@ -13,10 +15,11 @@
 	height: 20px;
 	background-color: red;
 	border:2px solid red;
+>>>>>>> master
 
-}
 #dev{
 	margin-top: 10%
+	margin-left: 10%;
 }
 html, body{
 	width: 100%;
@@ -25,6 +28,29 @@ html, body{
 	color: grey;
 	background-color: black;
 
+}
+h3, h2{
+	color: white
+
+}
+
+#social{
+    display: inline;
+    position: fixed;
+    margin-top: 10%;
+    margin-left:43%;
+
+}
+
+#pad{
+    padding:10%;
+}
+
+#img{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    padding-left: 3.5%;
 }
 #search{
 	
@@ -39,6 +65,9 @@ input[type=submit] {
     margin: 4px 2px;
     cursor: pointer;
 }
+input[type=text]:focus {
+    width: 100%;
+}
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
@@ -46,7 +75,6 @@ input[type=text] {
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;

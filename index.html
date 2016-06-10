@@ -10,26 +10,51 @@
 <body>
 
 	<header>
-		<h1>Moviesss World</h1>
-
+		<h1>Movies World</h1>
 		<nav>
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
-</ul>
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
 		</nav>
+
+		<div id="social">
+			<div>
+				<a href="https://www.facebook.com/" id="pad">
+					<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-128.png" height = "50px" width="50px">
+				</a>
+			</div>
+			<div>
+				<a href="https://twitter.com/" id="pad">
+					<img src="http://www.icreatemagazine.com/wp-content/uploads/2014/02/Twitter-blue.png" height = "50px" width="50px">
+				</a>
+			</div>
+		</div>
 	</header>
 
 
 <div id="dev">
 	<form id="search">
 		<input type="text" name="t" placeholder="Search..." onkeyup="onKeyUp()" id="img">
-		<!-- <input type="text" name="type" placeholder="type"> -->
+		<br>
 		<input type="Submit">
 	</form>	
 </div>
+
+	 <div id="images"></div>
+	 <img id="poster"/>
+	 <h3 id="actors"></h3>
+	 <h3 id="directors"></h3>
+	 <h3 id="movie-title"></h3>
+	<h3 id="movie-year"></h3>
+	<h3 id="movie-country"></h3>
+	<h3 id="movie-released"></h3>
+	 <br>
+	 
+	 <div class="w3-container">
+	 <h2>Latest Movies</h2>
+	</div>
+
 	 <div id="images"></div> 
 	<h2 id="movie-title">Movie Title</h2> 
 	<img id="poster"/>
@@ -53,67 +78,8 @@
  
 </div>
 
-<div class="w3-content" style="max-width:800px;position:relative">
 
-<div class="w3-display-container mySlides">
-  <img src="http://i.telegraph.co.uk/multimedia/archive/03597/POTD_chick_3597497k.jpg" style="width:100%">
-  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-    Trolltunga, Norway
-  </div>
-</div>
 
-<div class="w3-display-container mySlides">
-  <img src="http://dingo.care2.com/pictures/causes/uploads/2013/08/1534206651.jpg" style="width:100%">
-  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-    Northern Lights, Norway
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="http://animalwall.xyz/wp-content/uploads/2015/10/rodents-rabbits-rabbit-animal-bunny-grass-easter-green-cute-animale-wallpaper-pictures-hd.jpg" style="width:100%">
-  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
-    Beautiful Mountains
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="http://westislandmommies.com/wp-content/uploads/2014/04/Two-ducklings-with-easter-eggs-SSP-80517_640x355.jpg" style="width:100%">
-  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
-    The Rain Forest
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="img_mountains.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    Mountains!
-  </div>
-</div>
-
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
-<a class="w3-btn-floating w3-hover-dark-grey" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
-
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
 
 	<script src="script.js"></script>
 
