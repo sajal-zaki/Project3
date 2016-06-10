@@ -3,7 +3,6 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
    $("#search").on("submit", function(e) {
        e.preventDefault();
 
-      
       var dataIN = {t: $('input[name=t]').val()};
        $.ajax({
         type: "GET",

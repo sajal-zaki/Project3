@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+
+#dev{
+	margin: auto;
+	margin-left: 40%;
+}
+
+#img{
+	background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png');
+}
+
+#box{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border:2px solid red;
+>>>>>>> master
 
 #dev{
 	margin-top: 10%
@@ -105,3 +123,4 @@ li a:hover:not(.active) {
 .active {
     background-color: #b30000;
 }
+
