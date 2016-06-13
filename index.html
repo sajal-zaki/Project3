@@ -18,13 +18,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 </head>
-<body>
+<body id="bod1">
 	<header>
-		<h1>Moviesss World</h1>
+		<h1 style = "font-family: AR DESTINE">Movies World</h1>
 		<nav>
 			<ul>
-				<li><a class="active" href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a style = "font-family: AR DESTINE" class="active" href="index.html">Home</a></li>
+				<li><a style = "font-family: AR DESTINE" href="about.html">About</a></li>
 			</ul>
 		</nav>
 
@@ -35,7 +35,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="https://twitter.com/" id="pic">
+				<a href="https://twitter.com/" >
 					<img src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/512/Twitter-icon.png" height = "50px" width="50px">
 				</a>
 			</div>
@@ -46,23 +46,23 @@
 	<form id="search">
 		<input type="text" name="t" placeholder="Search..." onkeyup="onKeyUp()" id="img">
 		<br>
+		<br>
 		<input type="Submit">
 	</form>	
 </div>
+<br>
 	 <div id="images"></div>
 	 <img id="poster"/>
-	 <h3 id="actors"></h3>
-	 <h3 id="directors"></h3>
-	 <h3 id="movie-title"></h3>
-	 <h3 id="movie-year"></h3>
-	 <h3 id="movie-country"></h3>
-	 <h3 id="movie-released"></h3>
+	 <h3 id="actors" id="text"></h3>
+	 <h3 id="directors" id="text"></h3>
+	 <h3 id="movie-title" id="text"></h3>
+	 <h3 id="movie-year" id="text"></h3>
+	 <h3 id="movie-country" id="text"></h3>
+	 <h3 id="movie-released" id="text"></h3>
 	 <br>
-	 <h2 class="w3-center">Manual Slideshow</h2>
 	 <div class="w3-container">
-	 <h2>Latest Movies</h2>
+	 <h2 id="text">Latest Movies</h2>
 	</div>
-
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -77,19 +77,43 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="http://dingo.care2.com/pictures/causes/uploads/2013/08/1534206651.jpg" alt="Chania" width="460" height="345">
+        <img src="http://images.indianexpress.com/2016/03/batmanvssuperman1.jpg" >
+        <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Batman vs Superman -
+    Ratings: 7/10
+  </div>
+
       </div>
 
       <div class="item">
-        <img src="http://dingo.care2.com/pictures/causes/uploads/2013/08/1534206651.jpg" alt="Chania" width="460" height="345">
+        <img src="http://blogs-images.forbes.com/markhughes/files/2016/02/Deadpool-2-1200x675.jpg" alt="Chania" width="460" height="345">
+        <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Deadpool -
+    Ratings: 8.2/10
+  </div>
+      </div>
+      <div class="item">
+        <img src="http://www.playitmovies.com/wp-content/uploads/2016/04/The-Jungle-Book-470x245.jpg" alt="Chania" width="460" height="345">
+        <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    The Jungle Book -
+    Ratings: 7.8/10
+  </div>
       </div>
     
       <div class="item">
-        <img src="http://dingo.care2.com/pictures/causes/uploads/2013/08/1534206651.jpg" alt="Flower" width="460" height="345">
+        <img src="http://blogs-images.forbes.com/erikkain/files/2015/11/orc.jpg" alt="Flower" width="460" height="345">
+        <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    Warcraft -
+    Ratings: 7.8/10
+  </div>
       </div>
 
       <div class="item">
-        <img src="http://dingo.care2.com/pictures/causes/uploads/2013/08/1534206651.jpg" alt="Flower" width="460" height="345">
+        <img src="http://1.bp.blogspot.com/-Wi2LkREED-4/VpeYBUH6cZI/AAAAAAAAHz4/DGoSxRL9GEU/s1600/The%2BConjuring%2B2.jpg" height="345">
+        <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    The Conjuring 2 -
+    Ratings: 8.4/10
+  </div>
       </div>
     </div>
 
@@ -105,5 +129,6 @@
   </div>
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
