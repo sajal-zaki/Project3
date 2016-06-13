@@ -27,21 +27,6 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
 
 function onKeyUp() {
 
-    // $.ajax({
-    //     type: "GET",
-    //     url: 'http://www.omdbapi.com/?',
-    //     data: {t: $('input[name=t]').val(),
-    //     },
-    //     success: function(response){
-
-    //            $("#movie-title").html(response.Title);
-    //            $("#poster").attr("src", response.Poster);
-               
-    //          //  $("#actors").html("Actors: " + response.Actors);
-    //          // $("#directors").html("Directors: " + response.Director);
-    //          console.log(response);
-    //     }
-    //    })
   
      $.getJSON("http://www.omdbapi.com/?", {
                t: $('input[name=t]').val(),

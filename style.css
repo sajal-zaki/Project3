@@ -1,50 +1,61 @@
 #dev{
-	margin-top: 10%
+	margin-top: 5%;
 	margin-left: 10%;
+    margin-right: 10%;
+    background-color: yellow;
+    padding: 5%;
+    background: url(http://thumbs.dreamstime.com/z/abstract-black-background-red-yellow-white-rings-circles-grunge-circle-shapes-modern-art-design-style-layout-ring-59563763.jpg);
+    background-size:80%;
 }
 html, body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	color: grey;
-	background-color: black;
+	color: white;
+    font-size: 15;
+	background-image: url(http://wallpaper.zone/thumb/1245367.jpg);
+    background-size: 170%;
 
 }
 
-h3, h2{
-	color: white
-
-}
 
 #isocial {
     display: inline;
     position: fixed;
     margin-top: 3%;
-    margin-left:43%;
+    margin-left:45%;
 }
-#search{
-	
-	
-}
-input[type=submit] {
-    background-color: #4CAF50;
-    border: none;
+h2, h3{
     color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+    font-family: Georgia;
+}
+
+input[type=submit] {
+        cursor:pointer; 
+        font-family: AR DESTINE;
+    padding:5px 25px; 
+    background: #b30000; 
+    border:1px solid #33842a;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color:#f3f3f3;
+    font-size:20;
 }
 input[type=text]:focus {
     width: 100%;
 }
 input[type=text] {
-    width: 130px;
+    width: 270px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
-    background-color: white;
+    background-color: black;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -61,6 +72,7 @@ header{
 	text-align: center;
 	padding: 50px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
