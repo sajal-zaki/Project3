@@ -7,7 +7,7 @@
     background: url(http://thumbs.dreamstime.com/z/abstract-black-background-red-yellow-white-rings-circles-grunge-circle-shapes-modern-art-design-style-layout-ring-59563763.jpg);
     background-size:80%;
 }
-/*html, body{
+html, body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -16,7 +16,7 @@
 	background-image: url(http://wallpaper.zone/thumb/1245367.jpg);
     background-size: 170%;
 
-}*/
+}
 
 #bod1{
   width: 100%;
@@ -37,7 +37,7 @@
 
 #img{
     background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-128.png");
-    background-size: 20%;
+    background-size: 10%;
 }
 
 
@@ -111,9 +111,6 @@ li {
     border-right:1px solid #bbb;
 }
 
-li:last-child {
-    border-right: none;
-}
 
 li a {
     display: block;
@@ -128,9 +125,9 @@ li a:hover:not(.active) {
 }
 
 
-/*.active {
+.active {
     background-color: #b30000;
-}*/
+}
 
 header{
     border: 3px solid black;
