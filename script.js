@@ -22,15 +22,21 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
         }
        })
    })
+
+
+   // $("#hi").on('click', function(){
+   //      $("#hi").fadeIn();
+   // })
 });
 
 
 function onKeyUp() {
 
-  
      $.getJSON("http://www.omdbapi.com/?", {
                t: $('input[name=t]').val(),
            },
+
+
           function(response) {
                $("#movie-title").html(response.Title);
                $("#poster").attr("src", response.Poster);
@@ -39,3 +45,8 @@ function onKeyUp() {
                console.log(response.Actors)
            });;
 }
+
+
+
+
+
