@@ -23,10 +23,6 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
        })
    })
 
-
-   // $("#hi").on('click', function(){
-   //      $("#hi").fadeIn();
-   // })
 });
 
 
