@@ -3,6 +3,7 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
    $("#search").on("submit", function(e) {
        e.preventDefault();
 
+      
       var dataIN = {t: $('input[name=t]').val()};
        $.ajax({
         type: "GET",
@@ -21,30 +22,21 @@ $(document).ready(function() {//so page is loaded fully and safe for us to manip
         }
        })
    })
+
+
+   // $("#hi").on('click', function(){
+   //      $("#hi").fadeIn();
+   // })
 });
 
 
 function onKeyUp() {
 
-    // $.ajax({
-    //     type: "GET",
-    //     url: 'http://www.omdbapi.com/?',
-    //     data: {t: $('input[name=t]').val(),
-    //     },
-    //     success: function(response){
-
-    //            $("#movie-title").html(response.Title);
-    //            $("#poster").attr("src", response.Poster);
-               
-    //          //  $("#actors").html("Actors: " + response.Actors);
-    //          // $("#directors").html("Directors: " + response.Director);
-    //          console.log(response);
-    //     }
-    //    })
-  
      $.getJSON("http://www.omdbapi.com/?", {
                t: $('input[name=t]').val(),
            },
+
+
           function(response) {
                $("#movie-title").html(response.Title);
                $("#poster").attr("src", response.Poster);
@@ -53,3 +45,8 @@ function onKeyUp() {
                console.log(response.Actors)
            });;
 }
+
+
+
+
+
